@@ -29,6 +29,6 @@ export default class User {
   }
 
   jupiterAge() {
-    
+    this.age = parseInt(this.age / 11.86);
   }
 }
