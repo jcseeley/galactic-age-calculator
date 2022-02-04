@@ -14,5 +14,6 @@ export default class User {
 
   venusAge() {
     this.age = parseInt(this.age / 0.62);
+    this.lifeExpectancy = parseInt(this.lifeExpectancy / 0.62 - this.age);
   }
 }
