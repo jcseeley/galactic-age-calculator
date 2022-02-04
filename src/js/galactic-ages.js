@@ -23,5 +23,8 @@ export default class User {
   marsAge() {
     this.age = parseInt(this.age / 1.88);
     this.lifeExpectancy = parseInt(this.lifeExpectancy / 1.88 - this.age);
+    if (this.lifeExpectancy < 0) {
+      this.yearsPast = Math.abs(0 - this.lifeExpectancy);
+    }
   }
 }
