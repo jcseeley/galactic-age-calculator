@@ -23,7 +23,7 @@ describe('User', () => {
     expect(user.lifeExpectancy).toEqual(204);
   });
 
-  test('should add a yearsPast property with a positive number if user age is higher than lifeExpectancy', () => {
+  test('should add a yearsPast property with a positive number if user has lived beyond life expectancy', () => {
     let user = new User(85,79);
     user.mercuryAge();
     expect(user.yearsPast).toEqual(24);
@@ -39,7 +39,7 @@ describe('User', () => {
     expect(user.lifeExpectancy).toEqual(79);
   });
 
-  test('should add a yearsPast property with a positive number if user age is higher than lifeExpectancy', () => {
+  test('should add a yearsPast property with a positive number if user has lived beyond life expectancy', () => {
     let user = new User(85,79);
     user.venusAge();
     expect(user.yearsPast).toEqual(9);
@@ -55,7 +55,7 @@ describe('User', () => {
     expect(user.lifeExpectancy).toEqual(27);
   });
 
-  test('should add a yearsPast property with a positive number if user age is higher than lifeExpectancy', () => {
+  test('should add a yearsPast property with a positive number if user has lived beyond life expectancy', () => {
     let user = new User(85,79);
     user.marsAge();
     expect(user.yearsPast).toEqual(2);
@@ -68,6 +68,12 @@ describe('User', () => {
   test('should change lifeExpectancy to Jupiter years left to live', () => {
     user.jupiterAge();
     expect(user.lifeExpectancy).toEqual(4);
+  });
+
+  test('should add a yearsPast property with a positive number if user has lived beyond life expectancy', () => {
+    let user = new User(85,79);
+    user.jupiterAge();
+    expect(user.yearsPast).toEqual(0);
   });
 
 });
