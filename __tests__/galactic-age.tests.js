@@ -10,7 +10,12 @@ describe('User', () => {
 
   test('should correctly create a user object with two numbers', () => {
     expect(user.age).toEqual(30);
-    expect(user.yearsLeft).toEqual(79);
+    expect(user.yearsLeft).toEqual(79); 
   });
+
+  test('should change user age to Mercury years', () => {
+    user.mercuryAge();
+    expect(user.age).toEqual(125);
+  })
 
 });
