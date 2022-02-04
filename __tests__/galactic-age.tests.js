@@ -50,4 +50,9 @@ describe('User', () => {
     expect(user.age).toEqual(15);
   });
 
+  test('should change lifeExpectancy to Mars years left to live', () => {
+    user.marsAge();
+    expect(user.lifeExpectancy).toEqual(27);
+  });
+
 });
