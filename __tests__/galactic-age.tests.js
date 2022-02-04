@@ -61,4 +61,9 @@ describe('User', () => {
     expect(user.yearsPast).toEqual(2);
   });
 
+  test('should change user age to Jupiter years', () => {
+    user.jupiterAge();
+    expect(user.age).toEqual(2);
+  });
+
 });

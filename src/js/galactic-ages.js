@@ -27,4 +27,8 @@ export default class User {
       this.yearsPast = Math.abs(0 - this.lifeExpectancy);
     }
   }
+
+  jupiterAge() {
+    
+  }
 }
