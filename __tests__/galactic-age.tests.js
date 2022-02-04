@@ -45,4 +45,9 @@ describe('User', () => {
     expect(user.yearsPast).toEqual(9);
   });
 
+  test('should change user age to Mars years', () => {
+    user.marsAge();
+    expect(user.age).toEqual(15);
+  });
+
 });
