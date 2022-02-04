@@ -65,5 +65,9 @@ describe('User', () => {
     user.jupiterAge();
     expect(user.age).toEqual(2);
   });
+  test('should change lifeExpectancy to Jupiter years left to live', () => {
+    user.jupiterAge();
+    expect(user.lifeExpectancy).toEqual(4);
+  });
 
 });
