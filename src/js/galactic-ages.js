@@ -3,4 +3,8 @@ export default class User {
     this.age = age;
     this.yearsLeft = yearsLeft;
   }
+
+  mercuryAge() {
+    this.age = parseInt(this.age / 0.24);
+  }
 }
