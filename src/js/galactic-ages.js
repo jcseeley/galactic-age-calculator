@@ -6,5 +6,6 @@ export default class User {
 
   mercuryAge() {
     this.age = parseInt(this.age / 0.24);
+    this.yearsLeft = parseInt(this.yearsLeft / 0.24 - this.age);
   }
 }
