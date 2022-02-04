@@ -1,11 +1,11 @@
 export default class User {
-  constructor(age, yearsLeft) {
+  constructor(age, lifeExpectancy) {
     this.age = age;
-    this.yearsLeft = yearsLeft;
+    this.lifeExpectancy = lifeExpectancy;
   }
 
   mercuryAge() {
     this.age = parseInt(this.age / 0.24);
-    this.yearsLeft = parseInt(this.yearsLeft / 0.24 - this.age);
+    this.lifeExpectancy = parseInt(this.lifeExpectancy / 0.24 - this.age);
   }
 }

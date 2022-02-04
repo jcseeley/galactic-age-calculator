@@ -10,7 +10,7 @@ describe('User', () => {
 
   test('should correctly create a user object with two numbers', () => {
     expect(user.age).toEqual(30);
-    expect(user.yearsLeft).toEqual(79); 
+    expect(user.lifeExpectancy).toEqual(79); 
   });
 
   test('should change user age to Mercury years', () => {
@@ -18,10 +18,10 @@ describe('User', () => {
     expect(user.age).toEqual(125);
   });
 
-  test('should change user age to Mercury age and yearsLeft to expected years left to live', () => {
+  test('should change user age to Mercury age and lifeExpectancy to years left to live', () => {
     user.mercuryAge();
     expect(user.age).toEqual(125);
-    expect(user.yearsLeft).toEqual(204);
+    expect(user.lifeExpectancy).toEqual(204);
   });
 
 });
