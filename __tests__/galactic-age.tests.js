@@ -30,4 +30,9 @@ describe('User', () => {
     expect(user.yearsPast).toEqual(24);
   });
 
+  test('should change user age to Venus years', () => {
+    user.venusAge();
+    expect(user.age).toEqual(48);
+  });
+
 });
