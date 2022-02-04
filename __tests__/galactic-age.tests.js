@@ -24,4 +24,10 @@ describe('User', () => {
     expect(user.lifeExpectancy).toEqual(204);
   });
 
+  test('should add a yearsPast property with a positive number if user age is higher than lifeExpectancy', () => {
+    let user = new User(85,79);
+    user.mercuryAge();
+    expect(user.yearsPast).toEqual(24);
+  });
+
 });
