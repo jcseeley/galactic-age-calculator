@@ -7,5 +7,8 @@ export default class User {
   mercuryAge() {
     this.age = parseInt(this.age / 0.24);
     this.lifeExpectancy = parseInt(this.lifeExpectancy / 0.24 - this.age);
+    if (this.lifeExpectancy < 0) {
+      this.yearsPast = Math.abs(0 - this.lifeExpectancy);
+    }
   }
 }
