@@ -30,5 +30,6 @@ export default class User {
 
   jupiterAge() {
     this.age = parseInt(this.age / 11.86);
+    this.lifeExpectancy = parseInt(this.lifeExpectancy / 11.86 - this.age);
   }
 }
