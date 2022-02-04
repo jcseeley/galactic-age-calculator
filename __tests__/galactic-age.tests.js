@@ -16,6 +16,12 @@ describe('User', () => {
   test('should change user age to Mercury years', () => {
     user.mercuryAge();
     expect(user.age).toEqual(125);
-  })
+  });
+
+  test('should change user age to Mercury age and yearsLeft to expected years left to live', () => {
+    user.mercuryAge();
+    expect(user.age).toEqual(125);
+    expect(user.yearsLeft).toEqual(204);
+  });
 
 });
