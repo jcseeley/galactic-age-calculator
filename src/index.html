@@ -1,9 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Galactic Age Calculator</title>
 </head>
 <body>
@@ -12,19 +9,17 @@
     <h5>Enter your info to see your age and remaining years on other planets!</h5>
     <br>
     <form id="age">
-      <div class="form-row">
-        <div class="col">
-          <input id="age" type="number" class="form-control" placeholder="How old are you?" required>
-        </div>
-        <div class="col">
-          <input id="expectancy" type="number" class="form-control" placeholder="Life expectancy?" required>
-        </div>
-        <div class="col">
-          <button type="submit" class="btn btn-light">See Galactic Ages!</button>
-        </div>
-      </div>
+      <input id="age" type="number" placeholder="How old are you?" required>
+      <input id="expectancy" type="number" placeholder="Life expectancy?" required>
+      <button type="submit" class="btn btn-dark">See Galactic Ages!</button>
     </form>
     <br>
+    <div class="row" id="planets">
+      <h6 class="col-3">Mercury</h6>
+      <h6 class="col-3">Venus</h6>
+      <h6 class="col-3">Mars</h6>
+      <h6 class="col-3">Jupiter</h6>
+    </div>
   </div>
 </body>
 </html>
