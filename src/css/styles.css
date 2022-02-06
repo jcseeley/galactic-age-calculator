@@ -1,12 +1,40 @@
-body {
-  background-image: url('https://images.wallpaperscraft.com/image/single/exoplanet_atmosphere_clouds_stars_moon_mist_mountains_rocks_101205_1920x1080.jpg');
-  color: aliceblue;
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
 }
 
-h1, h5 {
+body {
+  color: aliceblue;
+  font-family: monospace;
+  background-image: url('https://images.wallpaperscraft.com/image/single/astronaut_art_space_129529_1920x1080.jpg');
+  background-size: 135%;
+  background-repeat: repeat-x;
+  animation: animatedBackground 10s linear infinite alternate;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+h5 {
   text-align: center;
 }
 
 h4 {
   text-decoration: underline;
+}
+
+#user {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.planets {
+  display: none;
 }
