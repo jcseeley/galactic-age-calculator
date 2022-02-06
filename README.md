@@ -22,11 +22,7 @@ Enter your age and the life expectancy for your demographic to see how old you'd
 
 ## Setup/Installation Requirements
 
-* Visit https://jcseeley.github.io/
-* Clone this repository to your desktop.
-* Navigate to the top level of the directory.
-* Open the index.html file in your browser.
-
+* Visit https://jcseeley.github.io/galactic-age-calculator
 * Clone this repository to your desktop.
 * Navigate to the top level of the directory in your terminal.
 * Run "$ npm install"

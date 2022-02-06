@@ -11,7 +11,7 @@ body {
   color: aliceblue;
   font-family: monospace;
   background-image: url('https://images.wallpaperscraft.com/image/single/astronaut_art_space_129529_1920x1080.jpg');
-  background-size: 135%;
+  background-size: 115%;
   background-repeat: repeat-x;
   animation: animatedBackground 10s linear infinite alternate;
 }
