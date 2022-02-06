@@ -41,10 +41,11 @@ describe('User', () => {
     expect(user.lifeExpectancy).toEqual(79);
   });
 
-  test('should add a yearsPast property with a positive number if user has lived beyond life expectancy', () => {
+  test('should add a positive number to yearsPast property and reduce lifeExpectancy to 0 if user has lived far enough beyond life expectancy', () => {
     let user = new User(85,79);
     user.venusAge();
     expect(user.yearsPast).toEqual(9);
+    expect(user.lifeExpectancy).toEqual(0);
   });
 
   test('should change user age to Mars years', () => {
