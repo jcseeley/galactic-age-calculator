@@ -18,16 +18,16 @@
 
 ## Description
 
-Enter your age and the life expectancy for your demographic to see how old you'd be and how many years you may have left to live on Mercury, Venus, Mars, and Jupiter.
+A calculator designed to determine your age and potential remaining years on Mercury, Venus, Mars, and Jupiter. Enter your current age and estimated life expectancy to see the conversion.
 
 ## Setup/Installation Requirements
 
 * Clone this repository to your desktop.
 * Navigate to the top level of the directory in your terminal.
-* Run "$ npm install"
-* Run "$ npm run build" to build the project.
-* Run "$ npm run start" to open the dev server. Or you can open a VS Code live server on the "index.html" file in the "dist" folder.
-* Run "$ npm test" to run Jest tests.
+* Run "npm install"
+* Run "npm run build" to build the project.
+* Run "npm run start" to open the dev server. Or you can open a VS Code live server on the "index.html" file in the "dist" folder.
+* Run "npm test" to run Jest tests.
 
 ## Known Bugs
 
