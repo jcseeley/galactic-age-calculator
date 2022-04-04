@@ -2,7 +2,8 @@
 
 #### By Jase Seeley
 
-#### Find out how old you'd be on another planet.
+#### Epicodus Week #5 Independent Code Review: Test-Driven Development and Environments with JavaScript  
+* Find out how old you'd be on another planet.
 
 ## Technologies Used
 * HTML
