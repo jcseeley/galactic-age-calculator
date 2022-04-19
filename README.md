@@ -23,6 +23,7 @@ A calculator designed to determine your age and potential remaining years on Mer
 
 ## Setup/Installation Requirements
 
+* Visit https://jcseeley.github.io/galactic-age-calculator/ in your browser.
 * Clone this repository to your desktop.
 * Navigate to the top level of the directory in your terminal.
 * Run "npm install"
