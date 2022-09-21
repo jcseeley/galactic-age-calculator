@@ -5,6 +5,8 @@
 #### Epicodus Week #5 Independent Code Review: Test-Driven Development and Environments with JavaScript  
 * Find out how old you'd be on another planet.
 
+![Webpage preview](./GalacticAge.png)
+
 ## Technologies Used
 * HTML
 * CSS
