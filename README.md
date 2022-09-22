@@ -7,6 +7,8 @@
 
 ![Webpage preview](./GalacticAge.png)
 
+![Test results](./GalacticTests.png)
+
 ## Technologies Used
 * HTML
 * CSS
